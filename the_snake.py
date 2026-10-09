@@ -80,7 +80,8 @@ class Snake(GameObject):
     def __init__(self):
         """Создаёт змейку из одной головы в центре экрана."""
         super().__init__(
-            position=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2), body_color=SNAKE_COLOR
+            position=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2), 
+            body_color=SNAKE_COLOR
         )
         self.positions = [self.position]
         self.length = 1
