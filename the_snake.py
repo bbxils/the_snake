@@ -1,4 +1,3 @@
-from abc import ABC, abstractmethod
 from random import randint
 
 import pygame
@@ -52,7 +51,6 @@ class GameObject:
 
     def draw(self):
         """Отрисовывает объект (переопределяется в дочерних классах)."""
-        pass
 
 
 class Apple(GameObject):
